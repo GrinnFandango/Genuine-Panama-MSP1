@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|family=Quicksand:100,200,300,400,500,600,700');
+
+
+/*--------------------------------------------------- SPECIAL/TEXT */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*--------------------------------------------------- HEADER */
+
+header {
+    background-color: #dcd8cd;
+}
+
+.logo {
+    background-image: url("../assets/images/genpangraphix/gplogo.png");
+    width: 100%;
+    height: auto;
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #dcd8cd;
+    overflow: hidden;
+}
+
+/*--------------------------------------------------- NAVBAR */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+    float: right;
+}
+
+.navbar {
+    border-radius: 50px;
+    flex: auto;
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+    margin-right: 5px;
+}
+
+.navbar .navbar-nav a {
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-align: right;
+    position: inherit;
+}
+
+/*--------------------------------------------------- HOME */
+
+.img-container {
+    height: 50vh;
+    min-width: 50vw;
+    min-height: auto;
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center fixed;
+}
+
+/*--------------------------------------------------- FOOTER */
+
+footer {
+    background-color: #535353;
+    color: #dfdfdf;
+    max-height: 100px;
+    margin: 0;
+}
+
+.social-links li a i {
+    display: inline-block;
+    width: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #dfdfdf;
+    background: #808080;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social-links li a i:hover {
+    background: #2f528c;
+}
+
+#footer-info {
+    padding: 0 20px;
+    text-align: center;
+}
+
+footer ul {
+    padding-top: 20px;
+}
+
+
+/*----------------------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+	
+}
+
