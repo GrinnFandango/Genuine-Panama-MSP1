@@ -5,6 +5,27 @@
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #dddcd9;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .responsive {
@@ -16,10 +37,46 @@ body {
     display: inline-block;
 }
 
+header, footer {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+section {
+    padding-bottom: 120px;
+}
+
+.block-divider{
+    width: 75px;
+    height: 2px;
+    border: 0;
+    border-radius: 25%;
+    background-color: #2f528c;
+}
+
+.block-divider--short {
+    width: 35px;
+}
+
+h2, 
+h3, 
+h5, 
+p {
+    color: #535353; 
+}
+
+h2 {
+    font-weight: 200;
+    text-align: center;
+}
+
 /*--------------------------------------------------- HEADER */
 
 header {
     background-color: #dcd8cd;
+    top: 0;
+    z-index: 1;
+    position: sticky;
 }
 
 .logo {
@@ -56,8 +113,8 @@ header {
 }
 
 .navbar .navbar-nav a {
-    font-family: "Montserrat";
-    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     text-align: right;
     position: inherit;
 }
@@ -66,9 +123,9 @@ header {
 
 .img-container {
     height: 50vh;
-    min-width: 50vw;
+    max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
+    background: url("../assets/images/genpangraphix/gen.jpg") no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,16 +133,41 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: center fixed;
 }
 
+
+/*--------------------------------------------------- ABOUT */
+
+.about-container p {
+    text-align: center;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.backgroung-img {
+    background-image: url("../assets/images/genpangraphix/gp.png");
+}
+
+
+.about-container {
+    background-color: #dddcd9;
+
+}
+
+.bio-text {
+    background-color: rgba(2, 2, 2, 0.05);
+    border-radius: 2%;
+}
 /*--------------------------------------------------- FOOTER */
 
 footer {
     background-color: #535353;
-    color: #dfdfdf;
-    max-height: 100px;
     margin: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-links li a i {
@@ -113,14 +195,51 @@ footer {
     text-align: center;
 }
 
-footer ul {
-    padding-top: 20px;
+.general-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    color: #dcd8cd;
 }
 
+/*----------------------------------------------------BOOKING */
+
+.contact-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.center-form {
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 70%;
+    border-radius: 30%;
+}
+
+button[type="submit"] {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #dcd8cd;
+	background-color: #2f528c;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 
 /*----------------------------------------------------Media Queries */
 
-@media(min-width: 992px) {
-	
+@media(min-width: 767px) {
+    .center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
 }
-
