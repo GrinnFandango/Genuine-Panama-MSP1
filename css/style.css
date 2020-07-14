@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|family=Quicksand:100,200,300,400,500,600,700');
 
-
 /*--------------------------------------------------- SPECIAL/TEXT */
 
 body {
@@ -43,7 +42,7 @@ header, footer {
     }
 
 section {
-    padding-bottom: 120px;
+  padding-bottom: 0;
 }
 
 .block-divider{
@@ -58,14 +57,25 @@ section {
     width: 35px;
 }
 
+.block-divider--shorter {
+    width: 15px;
+    height: 2px;
+    border: 0;
+    border-radius: 25%;
+    background-color: #2f528c;
+    display: none;
+}
+
 h2, 
-h3, 
+h3,
+h4, 
 h5, 
 p {
     color: #535353; 
 }
 
-h2 {
+h2,
+h4 {
     font-weight: 200;
     text-align: center;
 }
@@ -76,18 +86,7 @@ header {
     background-color: #dcd8cd;
     top: 0;
     z-index: 1;
-    position: sticky;
-}
-
-.logo {
-    background-image: url("../assets/images/genpangraphix/gplogo.png");
-    width: 100%;
-    height: auto;
-    background-size: 30%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #dcd8cd;
-    overflow: hidden;
+    position: fixed;
 }
 
 /*--------------------------------------------------- NAVBAR */
@@ -100,6 +99,11 @@ header {
     padding-right: 0;
     z-index: 1;
     float: right;
+    box-shadow: none;
+}
+
+button:focus {
+  outline: none;
 }
 
 .navbar {
@@ -119,13 +123,13 @@ header {
     position: inherit;
 }
 
-/*--------------------------------------------------- HOME */
+/*--------------------------------------------------- HERO IMAGE */
 
 .img-container {
     height: 50vh;
     max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/gen.jpg") no-repeat center fixed; 
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -140,6 +144,7 @@ header {
 
 .about-container p {
     text-align: center;
+    margin: 0px 10px
 }
 
 .col-centered {
@@ -157,10 +162,26 @@ header {
 
 }
 
-.bio-text {
+.container-text {
     background-color: rgba(2, 2, 2, 0.05);
     border-radius: 2%;
+    padding: 15px 0;
 }
+
+/*--------------------------------------------------- LATEST SINGLE */
+
+iframe {
+  width: 100%;
+  height: 50vh;
+  padding: 0 15px;
+}
+
+/*--------------------------------------------------- CAROUSEL */
+
+#carousel {
+  z-index: 0;
+}
+
 /*--------------------------------------------------- FOOTER */
 
 footer {
@@ -201,7 +222,7 @@ footer {
     color: #dcd8cd;
 }
 
-/*----------------------------------------------------BOOKING */
+/*---------------------------------------------------- BOOKING */
 
 .contact-heading {
 	font-family: 'Montserrat', sans-serif;
@@ -211,6 +232,7 @@ footer {
 }
 
 .center-form {
+  font-family: 'Montserrat', sans-serif;
 	padding-top: 10px;
 	margin: 0 auto;
 	max-width: 70%;
@@ -233,13 +255,111 @@ h5 {
     font-weight: 300;
 }
 
+/*---------------------------------------------------- SHOW DATES */
+
+.timeline-item {
+	padding: 2em 152px 2em 0em;
+	position: relative;
+	color: #535353;
+	border-left: 3px double;
+  left: 80px;
+}
+
+.timeline-item p {
+	padding: 0;
+	margin:0;
+}
+
+.timeline-item:before {
+	content: attr(data-dates);
+	position: absolute;
+	left: 5em;
+	top: 2em;
+	display: block; 
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+}
+
+.timeline-item:after {
+	width: 12px;
+	height: 12px;
+	display: block;
+	top: 2.4em;
+	position: absolute;
+	left: -7px;
+	border-radius: 12px;
+	content: '';
+	background: #2f528c;
+}
+
 /*----------------------------------------------------Media Queries */
 
-@media(min-width: 767px) {
+@media screen and (min-width: 800px) {
     .center-form {
 		padding-top: 30px;
 		min-height: 240px;
 		margin: 0 auto;
 		max-width: 50%;
 	}
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    position: static;
+  }
+  .img-container {
+    height: 50vh;
+    max-width: 100%;
+    min-height: auto;
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
+    background-size: contain;
+  }
+
+  .timeline-item {
+    left: 10px;
+    padding: 2em 2em 2em 0em;
+  }
+
+  .timeline-item:before {
+	left: 1.5em;
+  }
+
+  iframe {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    position: fixed;
+  }
+
+  .img-container {
+    height: 50vh;
+    max-width: 100%;
+    min-height: auto;
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center; 
+    background-size: contain;
+    margin-top: 160px;
+  }
+  .timeline-item:after {
+    content: none;
+  }
+  .timeline-item:before {
+    left: 77px;
+    top: -3px;
+  }
+  .timeline-item {
+    border: none;
+    padding: 2em 2em 2em 1em;
+  }
+  .block-divider--shorter {
+    width: 15px;
+    height: 2px;
+    border: 0;
+    border-radius: 25%;
+    background-color: #2f528c;
+    display: block;
+  }
 }
