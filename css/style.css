@@ -142,6 +142,11 @@ button:focus {
 
 /*--------------------------------------------------- ABOUT */
 
+.bio-container p {
+    text-align: left;
+    margin: 0px 10px
+}
+
 .about-container p {
     text-align: center;
     margin: 0px 10px
@@ -151,11 +156,6 @@ button:focus {
     float: none;
     margin: 0 auto;
 }
-
-.backgroung-img {
-    background-image: url("../assets/images/genpangraphix/gp.png");
-}
-
 
 .about-container {
     background-color: #dddcd9;
