@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|family=Quicksand:100,200,300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|family=Quicksand:100,200,300,400,500,600,700");
 
 /*--------------------------------------------------- SPECIAL/TEXT */
 
 body {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #dddcd9;
+  font-family: "Quicksand", sans-serif;
+  background-color: #dddcd9;
 }
 
 #page-container {
@@ -24,7 +24,7 @@ body {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .responsive {
@@ -33,73 +33,74 @@ p {
 }
 
 .inline-block {
-    display: inline-block;
+  display: inline-block;
 }
 
-header, footer {
-        width: 100%;
-        padding: 10px 0;
-    }
+header,
+footer {
+  width: 100%;
+  padding: 10px 0;
+}
 
 section {
   padding-bottom: 0;
 }
 
-.block-divider{
-    width: 75px;
-    height: 2px;
-    border: 0;
-    border-radius: 25%;
-    background-color: #2f528c;
+.block-divider {
+  width: 75px;
+  height: 2px;
+  border: 0;
+  border-radius: 25%;
+  background-color: #2f528c;
 }
 
 .block-divider--short {
-    width: 35px;
+  width: 35px;
 }
 
 .block-divider--shorter {
-    width: 15px;
-    height: 2px;
-    border: 0;
-    border-radius: 25%;
-    background-color: #2f528c;
-    display: none;
+  width: 15px;
+  height: 2px;
+  border: 0;
+  border-radius: 25%;
+  background-color: #2f528c;
+  display: none;
 }
 
-h2, 
+h2,
 h3,
-h4, 
-h5, 
+h4,
+h5,
 p {
-    color: #535353; 
+  color: #535353;
 }
 
 h2,
 h4 {
-    font-weight: 200;
-    text-align: center;
+  font-weight: 200;
+  text-align: center;
 }
 
 /*--------------------------------------------------- HEADER */
 
 header {
-    background-color: #dcd8cd;
-    top: 0;
-    z-index: 1;
-    position: fixed;
+  background-color: #dcd8cd;
+  top: 0;
+  z-index: 1;
+  position: fixed;
 }
 
 /*--------------------------------------------------- NAVBAR */
 
 .navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-    float: right;
-    box-shadow: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1;
+  float: right;
+  box-shadow: none;
 }
 
 button:focus {
@@ -107,65 +108,64 @@ button:focus {
 }
 
 .navbar {
-    border-radius: 50px;
-    flex: auto;
+  border-radius: 50px;
+  flex: auto;
 }
 
-.navbar .navbar-toggler{
-    border: 0;
-    margin-right: 5px;
+.navbar .navbar-toggler {
+  border: 0;
+  margin-right: 5px;
 }
 
 .navbar .navbar-nav a {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-align: right;
-    position: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: right;
+  position: inherit;
 }
 
 /*--------------------------------------------------- HERO IMAGE */
 
 .img-container {
-    height: 50vh;
-    max-width: 100%;
-    min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 50vh;
+  max-width: 100%;
+  min-height: auto;
+  background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /*--------------------------------------------------- ABOUT */
 
 .bio-container p {
-    text-align: left;
-    margin: 0px 10px
+  text-align: left;
+  margin: 0px 10px;
 }
 
 .about-container p {
-    text-align: center;
-    margin: 0px 10px
+  text-align: center;
+  margin: 0px 10px;
 }
 
 .col-centered {
-    float: none;
-    margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 
 .about-container {
-    background-color: #dddcd9;
-
+  background-color: #dddcd9;
 }
 
 .container-text {
-    background-color: rgba(2, 2, 2, 0.05);
-    border-radius: 2%;
-    padding: 15px 0;
+  background-color: rgba(2, 2, 2, 0.05);
+  border-radius: 2%;
+  padding: 15px 0;
 }
 
 /*--------------------------------------------------- LATEST SINGLE */
@@ -185,123 +185,123 @@ iframe {
 /*--------------------------------------------------- FOOTER */
 
 footer {
-    background-color: #535353;
-    margin: 0;
-    bottom: 0;
-    width: 100%;
+  background-color: #535353;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-links li a i {
-    display: inline-block;
-    width: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #dfdfdf;
-    background: #808080;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
+  display: inline-block;
+  width: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #dfdfdf;
+  background: #808080;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: #2f528c;
+  background: #2f528c;
 }
 
 #footer-info {
-    padding: 0 20px;
-    text-align: center;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .general-sub {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    color: #dcd8cd;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  color: #dcd8cd;
 }
 
 /*---------------------------------------------------- BOOKING */
 
 .contact-heading {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	margin-top: 25px;
-	margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .center-form {
-  font-family: 'Montserrat', sans-serif;
-	padding-top: 10px;
-	margin: 0 auto;
-	max-width: 70%;
-    border-radius: 30%;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+  border-radius: 30%;
 }
 
 button[type="submit"] {
-	margin-top: 15px;
-	margin-bottom: 20px;
-	color: #dcd8cd;
-	background-color: #2f528c;
-    border: none;
-    font-family: 'Quicksand', sans-serif;
-    letter-spacing: 1px;
-    font-weight: 300;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #dcd8cd;
+  background-color: #2f528c;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
 /*---------------------------------------------------- SHOW DATES */
 
 .timeline-item {
-	padding: 2em 152px 2em 0em;
-	position: relative;
-	color: #535353;
-	border-left: 3px double;
+  padding: 2em 152px 2em 0em;
+  position: relative;
+  color: #535353;
+  border-left: 3px double;
   left: 80px;
 }
 
 .timeline-item p {
-	padding: 0;
-	margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .timeline-item:before {
-	content: attr(data-dates);
-	position: absolute;
-	left: 5em;
-	top: 2em;
-	display: block; 
-	font-size: 1em;
-	padding: 0;
-	margin: 0;
+  content: attr(data-dates);
+  position: absolute;
+  left: 5em;
+  top: 2em;
+  display: block;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
 }
 
 .timeline-item:after {
-	width: 12px;
-	height: 12px;
-	display: block;
-	top: 2.4em;
-	position: absolute;
-	left: -7px;
-	border-radius: 12px;
-	content: '';
-	background: #2f528c;
+  width: 12px;
+  height: 12px;
+  display: block;
+  top: 2.4em;
+  position: absolute;
+  left: -7px;
+  border-radius: 12px;
+  content: "";
+  background: #2f528c;
 }
 
 /*----------------------------------------------------Media Queries */
 
 @media screen and (min-width: 800px) {
-    .center-form {
-		padding-top: 30px;
-		min-height: 240px;
-		margin: 0 auto;
-		max-width: 50%;
-	}
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -312,7 +312,8 @@ h5 {
     height: 50vh;
     max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center fixed; 
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top
+      center fixed;
     background-size: contain;
   }
 
@@ -322,7 +323,7 @@ h5 {
   }
 
   .timeline-item:before {
-	left: 1.5em;
+    left: 1.5em;
   }
 
   iframe {
@@ -339,7 +340,8 @@ h5 {
     height: 50vh;
     max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center; 
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top
+      center;
     background-size: contain;
     margin-top: 160px;
   }
