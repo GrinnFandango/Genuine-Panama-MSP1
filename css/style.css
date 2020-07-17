@@ -159,7 +159,7 @@ button:focus {
 }
 
 .about-container {
-  background-color: #dddcd9;
+  background-color: rgb(221, 220, 217);
 }
 
 .container-text {
@@ -224,30 +224,74 @@ footer {
 
 /*---------------------------------------------------- BOOKING */
 
-.contact-heading {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 20px;
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0px 15px;
+}
+.get-in-touch .title {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 8px;
+    color: #2f528c;
 }
 
-.center-form {
-  font-family: "Montserrat", sans-serif;
-  padding-top: 10px;
-  margin: 0 auto;
-  max-width: 70%;
-  border-radius: 30%;
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+    background: none;
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #2f528c;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    box-shadow: none;
+}
+.contact-form .input-text:focus {
+  outline: none;
 }
 
-button[type="submit"] {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  color: #dcd8cd;
-  background-color: #2f528c;
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+    font-family: "Montserrat", sans-serif;
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #535353;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(90deg,rgba(221,220,217,0.95),#2f528c,rgba(221,220,217,0.95));
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
   border: none;
-  font-family: "Quicksand", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 300;
+  border-radius: 20px;
+  width:200px;
+  cursor: pointer;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
 }
 
 h5 {
@@ -293,7 +337,7 @@ h5 {
   background: #2f528c;
 }
 
-/*----------------------------------------------------Media Queries */
+/*---------------------------------------------------- Media Queries */
 
 @media screen and (min-width: 800px) {
   .center-form {
@@ -301,6 +345,12 @@ h5 {
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
+  }
+
+  .get-in-touch .title {
+    font-size: 2.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
   }
 }
 
@@ -335,7 +385,6 @@ h5 {
   header {
     position: fixed;
   }
-
   .img-container {
     height: 50vh;
     max-width: 100%;
