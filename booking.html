@@ -23,7 +23,7 @@
   </head>
   <body>
     <div id="page-container">
-      <!-------------------------------------- HEADER AND NAVBAR ------------------------------------------------>
+<!-------------------------------------- HEADER AND NAVBAR ------------------------------------------------>
       <header>
         <div class="container">
           <div class="row no-gutters">
@@ -78,14 +78,14 @@
           </div>
         </div>
       </header>
-      <!-------------------------------------- HERO IMAGE ------------------------------------------------>
+<!-------------------------------------- HERO IMAGE ------------------------------------------------>
       <section>
         <div class="container-fluid img-container responsive">
           <div class="opaque-overlay">&nbsp;</div>
           <div class="row"></div>
           <div class="col-12"></div>
         </div>
-        <!-------------------------------------- BOOKING CONTACT FORM ------------------------------------------------>
+<!-------------------------------------- BOOKING CONTACT FORM ------------------------------------------------>
         <div class="container-fluid about-container">
           <div class="row">
             <div class="col-5 col-centered">
@@ -94,52 +94,37 @@
               <hr class="block-divider block-divider--short" />
             </div>
             <div class="col-8 col-centered container-text">
-              <h3 class="contact-heading text-center">
-                Want us to play at your next show?
-              </h3>
-              <h5 class="text-center">Get in touch!</h5>
-
-              <div class="center-form">
-                <form>
-                  <input
-                    type="text"
-                    name="name"
-                    id="fullname"
-                    class="form-control"
-                    placeholder="Name"
-                    required
-                  />
-                  <input
-                    type="email"
-                    name="email"
-                    id="emailaddress"
-                    class="form-control"
-                    placeholder="Email"
-                    required
-                  />
-                  <textarea
-                    rows="5"
-                    name="projectsummary"
-                    id="projectsummary"
-                    class="form-control"
-                    placeholder="Show Details"
-                    required
-                  ></textarea>
-                  <div class="form-row text-center">
-                    <div class="col">
-                      <button type="submit" class="btn btn-secondary">
-                        Book Us!
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+<div class="get-in-touch">
+   <h3 class="title text-center">Want us to play at your next show?</h3>
+    <h5 class="text-center">Get in touch!</h5>
+    <hr class="block-divider block-divider--short" />
+   <form class="contact-form row">
+      <div class="form-field col-lg-6">
+         <input id="name" class="input-text" type="text" required>
+         <label class="label" for="name">Name</label>
+      </div>
+      <div class="form-field col-lg-6 ">
+         <input id="email" class="input-text" type="email" required>
+         <label class="label" for="email">E-mail</label>
+      </div>
+       <div class="form-field col-lg-6 ">
+         <input id="phone" class="input-text" type="text" required>
+         <label class="label" for="phone">Contact Number</label>
+      </div>
+      <div class="form-field col-lg-6">
+          <textarea rows="5" name="message" id="message" class="form-control input-text" placeholder="Show Details" required></textarea>
+      </div>
+      <div class="form-field col-lg-12">
+         <input class="submit-btn" type="submit" value="Submit">
+      </div>
+   </form>
+</div>
             </div>
           </div>
         </div>
         <hr class="block-divider block-divider--short" />
       </section>
-      <!-------------------------------------- FOOTER LINKS AND CONTACT INFO ------------------------------------------------>
+<!-------------------------------------- FOOTER LINKS AND CONTACT INFO ------------------------------------------------>
       <footer id="footer,content-wrap">
         <div id="footer-info" class="row no-gutters justify-content-center">
           <div class="col-sm-6">
@@ -190,8 +175,7 @@
           </div>
         </div>
       </footer>
-    </div>
-    <!-- corresponds with div above header -->
+    </div><!-- corresponds to div above header -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
