@@ -27,10 +27,7 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .inline-block {
   display: inline-block;
@@ -92,6 +89,12 @@ header {
 
 /*--------------------------------------------------- NAVBAR */
 
+.responsive {
+   max-width: 150px;
+   height: auto;
+   background-color: #dcd8cd;
+}
+
 .navalert-container {
   position: absolute;
   top: 0;
@@ -110,6 +113,7 @@ button:focus {
 .navbar {
   border-radius: 50px;
   flex: auto;
+  background-color: #dcd8cd;
 }
 
 .navbar .navbar-toggler {
@@ -355,16 +359,13 @@ h5 {
 }
 
 @media screen and (max-width: 600px) {
-  header {
-    position: static;
-  }
   .img-container {
     height: 50vh;
     max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top
-      center fixed;
-    background-size: contain;
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center;
+    background-size: cover;
+    margin-top: 60px;
   }
 
   .timeline-item {
@@ -389,10 +390,9 @@ h5 {
     height: 50vh;
     max-width: 100%;
     min-height: auto;
-    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top
-      center;
+    background: url("../assets/images/genpangraphix/genpan.jpg") no-repeat top center;
     background-size: contain;
-    margin-top: 160px;
+    margin-top: 60px;
   }
   .timeline-item:after {
     content: none;
