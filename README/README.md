@@ -66,4 +66,24 @@ The purpose of this site is to create a webpage based platform for existing and 
 * ![#dddcd9f2](https://placehold.it/15/dddcd9f2/dddcd9f2) text container
 * ![#535353](https://placehold.it/15/535353/535353)![#2f528c](https://placehold.it/15/2f528c/2f528c) showdates timeline
 
+#### Icons
+- [Font Awesome 5.14.0](https://fontawesome.com/)
+    - Four *Font Awesome* icons were used on the footer of the website on each page created.
+      - [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
+      - [Twitter](https://fontawesome.com/icons/twitter?style=brands)
+      - [Instagram](https://fontawesome.com/icons/instagram?style=brands)
+      - [YouTube](https://fontawesome.com/icons/youtube?style=brands) -now updated-
+
+#### Typography
+
+- Two [*Google Fonts*](https://fonts.google.com/) were used across the site:
+    - [Montserrat](https://fonts.google.com/specimen/Montserrat) : Main text.
+    - [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand) : Headings
+
+
+#### Libraries/ Framework Used
+- [Bootstrap 4](https://getbootstrap.com/)
+- [jQuery](https://jquery.com/download/)
+- [jsDelivr](https://www.jsdelivr.com/)
+
 ###### [back to top](#table-of-contents)
