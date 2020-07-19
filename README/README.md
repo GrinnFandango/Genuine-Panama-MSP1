@@ -5,18 +5,18 @@
     - [**User Stories**](#user-stories)
         - [**Wireframes**](#wireframes)
 
-2. [**Design**](#design)
-    - [**Color Scheme**](#color-scheme)
-    - [**Icons**](#icons)
-    - [**Typography**](#typography)
-    - [**Libraries/Framework Used**](#Libraries/-framework-used)
+2. [**Features**](#features)
+    - [**Design**](#design)
+        - [**Color Scheme**](#color-scheme)
+        - [**Icons**](#icons)
+        - [**Typography**](#typography)
+        - [**Libraries/Framework Used**](#Libraries/-framework-used)
 
-2. [**Technologies Used**](#technologies-used)
-    - [**Front-End Technologies**](#front-end-technologies)
+2. [**Languages Used**](#languages-used)
+    - [**Front-End Languages**](#front-end-languages)
 
 3. [**Testing**](#testing)
     - [**Validators**](#validators)
-    - [**Automated Testing**](#automated-testing)
 
 4. [**Deployment**](#deployment)
     - [**Local Deployment**](#local-deployment)
@@ -31,12 +31,12 @@
 
 ![Genuine Panama device view](amires.png)
 
-
-## UX
 ---
+## UX
+
 The purpose of this site is to create a webpage based platform for existing and potential fans and viewers to keep up to date and possibly book this band whilst also being able to sell more merchandise, music and show tickets. 
 
-#### User Stories
+### User Stories
 
 * As a fan, I want to find out when and where this band will be playing. I would also like to find out where I can purchase merchandise. To do this, I had created timeline on the 'showdates.html' page to show the locations and dates of each upcoming show. I had also created a '_blank' link to an external page so visitors and fans can potentially buy the bands merch.
 
@@ -51,11 +51,10 @@ The purpose of this site is to create a webpage based platform for existing and 
 ***
 
 ## Features
----
 
-#### Design
+### Design
 
-###### Colour Scheme 
+#### Colour Scheme 
 * ![#dddcd9](https://placehold.it/15/dddcd9/dddcd9) body background
 * ![#2f528c](https://placehold.it/15/2f528c/2f528c) accent colour and booking form font
 * ![#535353](https://placehold.it/15/535353/535353)![#dcd8cd](https://placehold.it/15/dcd8cd/dcd8cd) font
@@ -66,13 +65,13 @@ The purpose of this site is to create a webpage based platform for existing and 
 * ![#dddcd9f2](https://placehold.it/15/dddcd9f2/dddcd9f2) text container
 * ![#535353](https://placehold.it/15/535353/535353)![#2f528c](https://placehold.it/15/2f528c/2f528c) showdates timeline
 
-#### Icons
+###### Icons
 - [Font Awesome 5.14.0](https://fontawesome.com/)
     - Four *Font Awesome* icons were used on the footer of the website on each page created.
       - [Facebook](https://fontawesome.com/icons/facebook-f?style=brands)
       - [Twitter](https://fontawesome.com/icons/twitter?style=brands)
       - [Instagram](https://fontawesome.com/icons/instagram?style=brands)
-      - [YouTube](https://fontawesome.com/icons/youtube?style=brands) -now updated-
+      - [YouTube](https://fontawesome.com/icons/youtube?style=brands) -glyph now updated-
 
 #### Typography
 
@@ -87,3 +86,27 @@ The purpose of this site is to create a webpage based platform for existing and 
 - [jsDelivr](https://www.jsdelivr.com/)
 
 ###### [back to top](#table-of-contents)
+---
+## Languages Used
+
+### Front-End Languages
+__My site was built with__
+- ![HTML5](https://img.shields.io/static/v1?label=HTML&message=5&color=E34F26&logo=html5&logoColor=ffffff)
+    - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - Used as the base for markup text.
+- ![CSS3](https://img.shields.io/static/v1?label=CSS&message=3&color=1572B6&logo=css3&logoColor=ffffff)
+    - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) - Used as the base for cascading styles.
+
+---
+## Testing
+I have validated all files using online validation sites cited bellow and checked across differents browsers and devices.
+
+### Validators 
+
+#### HTML
+* [W3C HTML Validator](https://validator.w3.org/) - `Document checking completed. No errors or warnings to show.` 
+
+-- Unavoidable errors in 'index.html'- `Error: The allowtransparency attribute on the iframe element is obsolete.` `Error: The frameborder attribute on the iframe element is obsolete. ` (From line 97, column 15; to line 102, column 15) as Spotify embed code requires these html attributes inorder to function correctly, so were left in original code. 
+
+
+#### CSS
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - `Congratulations! No Error Found.`
