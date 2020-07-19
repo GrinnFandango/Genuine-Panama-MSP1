@@ -1,5 +1,34 @@
 # [Genuine Panama](https://ucfed.kanra.repl.co/)
 
+## Table of Contents
+1. [**UX**](#ux)
+    - [**User Stories**](#user-stories)
+        - [**Wireframes**](#wireframes)
+
+2. [**Design**](#design)
+    - [**Color Scheme**](#color-scheme)
+    - [**Icons**](#icons)
+    - [**Typography**](#typography)
+    - [**Libraries/Framework Used**](#Libraries/-framework-used)
+
+2. [**Technologies Used**](#technologies-used)
+    - [**Front-End Technologies**](#front-end-technologies)
+
+3. [**Testing**](#testing)
+    - [**Validators**](#validators)
+    - [**Automated Testing**](#automated-testing)
+
+4. [**Deployment**](#deployment)
+    - [**Local Deployment**](#local-deployment)
+    - [**Remote Deployment**](#remote-deployment)
+
+5. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
+
+***
+
 ![Genuine Panama device view](amires.png)
 
 
@@ -15,5 +44,26 @@ The purpose of this site is to create a webpage based platform for existing and 
 
 * As an agent, I would like to be able to contact this band so I can find out whether I can book them for any shows. In order for this to happen, I had added a contact form on the 'booking.html' page that could be used to get in touch with the band, as well as adding their contact details to the footer of each page.
 
+#### Wireframes
+
 ![Wireframe image](GPWireframe.png)
 
+***
+
+## Features
+---
+
+#### Design
+
+###### Colour Scheme 
+* ![#dddcd9](https://placehold.it/15/dddcd9/dddcd9) body background
+* ![#2f528c](https://placehold.it/15/2f528c/2f528c) accent colour and booking form font
+* ![#535353](https://placehold.it/15/535353/535353)![#dcd8cd](https://placehold.it/15/dcd8cd/dcd8cd) font
+* ![#dcd8cd](https://placehold.it/15/dcd8cd/dcd8cd) header and navbar
+* ![#dfdfdf](https://placehold.it/15/dfdfdf/dfdfdf)![#808080](https://placehold.it/15/808080/808080)![#2f528c](https://placehold.it/15/2f528c/2f528c) footer social links
+* ![#535353](https://placehold.it/15/535353/535353) footer
+* ![#dddcd9f2](https://placehold.it/15/dddcd9f2/dddcd9f2)![#2f528c](https://placehold.it/15/2f528c/2f528c)![#fff](https://placehold.it/15/fff/fff) booking submit button
+* ![#dddcd9f2](https://placehold.it/15/dddcd9f2/dddcd9f2) text container
+* ![#535353](https://placehold.it/15/535353/535353)![#2f528c](https://placehold.it/15/2f528c/2f528c) showdates timeline
+
+###### [back to top](#table-of-contents)
