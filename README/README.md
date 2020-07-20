@@ -175,3 +175,13 @@ Once you have the project setup locally, you can proceed to deploy it remotely w
 Congratulations! Your project should be deployed successfully on GitHub Pages!
 
 ---
+## Credits
+
+  ### Content
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/), [Make a README](https://www.makeareadme.com/#who-should-make-it), [Camila Ribeiro](https://github.com/Camila-Ribeiro) and [Bob Herold](https://github.com/BobHerold)- README.md inspiration
+- [W3schools.com](https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_carousel2&stacked=h) - for code used on image carousel on 'index.html'. 
+- [Google Fonts](https://fonts.google.com/) - for font styles
+- [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/?) - for code used for Navbar across all *.html pages 
+- [Font Awesome](https://fontawesome.com/) - for icons used for social links on footer across all *.html pages
+
