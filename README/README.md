@@ -1,4 +1,4 @@
-# [Genuine Panama](https://ucfed.kanra.repl.co/)
+# [Genuine Panama](https://grinnfandango.github.io/Genuine-Panama/)
 
 ## Table of Contents
 1. [**UX**](#ux)
@@ -51,6 +51,16 @@ The purpose of this site is to create a webpage based platform for existing and 
 ***
 
 ## Features
+
+### Existing Features
+
+  * __Home page (index.html)__ -A page that gives users information about who this band is, with images to familiarise users with this band and images of this band perfoming. There is also a section to highlight this bands 'latest single' so users can hear a sample of the music produced by the band. 
+
+  * __Merch (external link)__ -This page links to an external page, so that users can potentially buy this bands merchandise.
+
+  * __Show Dates (showdates.html)__  -This page allows users to view where and when the band will be performing next.
+
+  * __Book Us (booking.html)__  -This page allows users to potentially book this band and contact them, should they need or want to.
 
 ### Design
 
@@ -107,6 +117,8 @@ I have validated all files using online validation sites cited bellow and checke
 
 -- Unavoidable errors in 'index.html'- `Error: The allowtransparency attribute on the iframe element is obsolete.` `Error: The frameborder attribute on the iframe element is obsolete. ` (From line 97, column 15; to line 102, column 15) as Spotify embed code requires these html attributes inorder to function correctly, so were left in original code. 
 
+-- Adding css folder to assets folder removes the usage of styling.
+
 
 #### CSS
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - `Congratulations! No Error Found.`
@@ -154,4 +166,6 @@ Once you have the project setup locally, you can proceed to deploy it remotely w
 **IMPORTANT NOTE**:
 - Please allow a few minutes to pass before opening your newly deployed link! Clicking this link too quickly may result in a failure to build the site, causing an Error 404 page instead.
 
-Congratulations! Your project should be deployed successfully on GitHub Pages! :tada: 
+Congratulations! Your project should be deployed successfully on GitHub Pages!
+
+---
