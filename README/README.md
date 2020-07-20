@@ -6,6 +6,7 @@
         - [**Wireframes**](#wireframes)
 
 2. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
     - [**Design**](#design)
         - [**Color Scheme**](#color-scheme)
         - [**Icons**](#icons)
