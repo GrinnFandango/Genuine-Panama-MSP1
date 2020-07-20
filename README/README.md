@@ -63,6 +63,11 @@ The purpose of this site is to create a webpage based platform for existing and 
 
   * __Book Us (booking.html)__  -This page allows users to potentially book this band and contact them, should they need or want to.
 
+    - ###  Features that could've been implemented
+
+        __Tickets__ - This page could've been implemented to show users where and how to buy tickets to upcoming shows, with information on how much the tickets will be.
+
+
 ### Design
 
 #### Colour Scheme 
