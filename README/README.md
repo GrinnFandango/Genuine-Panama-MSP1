@@ -110,3 +110,48 @@ I have validated all files using online validation sites cited bellow and checke
 
 #### CSS
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - `Congratulations! No Error Found.`
+
+---
+## Deployment
+
+My [UCFED Genuine Panama repository](https://grinnfandango.github.io/Genuine-Panama/) was developed locally using **Repl.it** as well as **Gitpod**, and all commits were pushed to **GitHub** using **Git**.
+
+This website was deployed on GitHub pages built from the Master branch to publish the project.
+To run this project locally, download the files and navigate through the index.html to start.
+
+### Local Deployment
+
+To run this project locally on your own system, you will need to clone this repository and need to have [GIT](https://www.atlassian.com/git/tutorials/install-git) installed and any suitable IDE.
+
+Next, to proceed with local deployment, you can...
+
+- **Download** this GitHub repository
+    - by clicking the green "*Clone or download*" button above,
+    - select *Download Zip*,
+    - this will download the project as a zip-file (*remember to unzip it first*).
+
+### Remote Deployment
+
+This site was deployed using [GitHub Pages](https://pages.github.com/) using the **master branch**.
+
+Deployed Site:
+- [https://grinnfandango.github.io/Genuine-Panama/](https://grinnfandango.github.io/Genuine-Panama/)
+
+Once you have the project setup locally, you can proceed to deploy it remotely with the following steps:
+
+1. Navigate to your GitHub repository:
+    - `https://github.com/USERNAME/REPO`
+2. Click on the **Settings** tab at the top:
+    - `https://github.com/USERNAME/REPO/settings`
+3. Scroll down on that page to the **GitHub Pages** section.
+4. The first drop-down field should be **Source** with *None* preselected.
+5. Select **master branch** from the list.
+6. The page should refresh.
+7. Scroll back down to the **GitHub Pages** section.
+8. You should now have a deployed link:
+    - `https://USERNAME.github.io/REPO`
+
+**IMPORTANT NOTE**:
+- Please allow a few minutes to pass before opening your newly deployed link! Clicking this link too quickly may result in a failure to build the site, causing an Error 404 page instead.
+
+Congratulations! Your project should be deployed successfully on GitHub Pages! :tada: 
