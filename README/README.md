@@ -191,3 +191,8 @@ Congratulations! Your project should be deployed successfully on GitHub Pages!
 - [Stack Overflow](https://stackoverflow.com/), [W3schools](https://www.w3schools.com/) and [Bootstrap](https://getbootstrap.com/) - Used as resources for finding answers to various coding problems.
 - [Am I Responsive](http://ami.responsivedesign.is/) - Checking responsiveness on all Apple device screen sizes.
 - [Bootsnipp](https://bootsnipp.com/) - Inspiration for contact form on 'Book Us/booking.html' page.
+
+### Acknowledgements
+I received inspiration for this project from: 
+Code Institute - Project Ideas 
+Genuine Panama (band) - [Website](https://www.genuinepanama.com/) / [facebook](https://www.facebook.com/genuinepanamaband/) 
