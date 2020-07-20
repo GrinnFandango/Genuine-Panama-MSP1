@@ -185,3 +185,9 @@ Congratulations! Your project should be deployed successfully on GitHub Pages!
 - [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/?) - for code used for Navbar across all *.html pages 
 - [Font Awesome](https://fontawesome.com/) - for icons used for social links on footer across all *.html pages
 
+### Media
+- [Spotify](https://www.spotify.com/us/) - Music embedding code.
+- [Genuine panama](https://www.facebook.com/genuinepanamaband) - Images used on site, with permission from one of the band members.
+- [Stack Overflow](https://stackoverflow.com/), [W3schools](https://www.w3schools.com/) and [Bootstrap](https://getbootstrap.com/) - Used as resources for finding answers to various coding problems.
+- [Am I Responsive](http://ami.responsivedesign.is/) - Checking responsiveness on all Apple device screen sizes.
+- [Bootsnipp](https://bootsnipp.com/) - Inspiration for contact form on 'Book Us/booking.html' page.
